@@ -1,4 +1,4 @@
-name = "katelyatv"
+name = "SterlingTV"
 compatibility_date = "2024-09-01"
 compatibility_flags = ["nodejs_compat"]
 pages_build_output_dir = ".vercel/output/static"
@@ -16,9 +16,9 @@ database_id = "06724f91-9c93-4002-b6f6-a0d1806733ea"
 # 生产环境变量
 [env.production.vars]
 NEXT_PUBLIC_STORAGE_TYPE = "d1"
-NEXT_PUBLIC_SITE_NAME = "KatelyaTV"
-NEXT_PUBLIC_SITE_DESCRIPTION = "高性能影视播放平台"
-NEXTAUTH_URL = "https://your-domain.pages.dev"
+NEXT_PUBLIC_SITE_NAME = "SterlingTV"
+NEXT_PUBLIC_SITE_DESCRIPTION = "私人影视播放平台"
+NEXTAUTH_URL = "https://linzihao.eu.org"
 IMAGE_PROXY_ENABLED = "true"
 CACHE_TTL = "3600"
 CORS_ORIGIN = "*"
@@ -43,7 +43,7 @@ database_id = "06724f91-9c93-4002-b6f6-a0d1806733ea"
 # 预览环境变量
 [env.preview.vars]
 NEXT_PUBLIC_STORAGE_TYPE = "d1"
-NEXT_PUBLIC_SITE_NAME = "KatelyaTV"
-NEXT_PUBLIC_SITE_DESCRIPTION = "高性能影视播放平台"
+NEXT_PUBLIC_SITE_NAME = "SterlingTV"
+NEXT_PUBLIC_SITE_DESCRIPTION = "私人影视播放平台"
 IMAGE_PROXY_ENABLED = "true"
 NODE_ENV = "production"
